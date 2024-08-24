@@ -1,3 +1,9 @@
-body{
-    background: lightblue;
+:root{
+    --color-primary: rgb(114, 202, 231);
+    --color-secondary: rgb(144, 143, 143);
+    --color-accent: rgb(105, 214, 105);
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+    
+
 }
