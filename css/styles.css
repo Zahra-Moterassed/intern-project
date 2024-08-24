@@ -6,6 +6,7 @@
     --color-body: #918ca4;
 }
 
+/* Typography */
 html{
     font-size: 62.5%;
 }
@@ -50,6 +51,40 @@ p{
     }
     h3{
         font-size: 2.4rem;
+    }
+    
+}
+
+/* Links */
+a{
+    text-decoration: none;
+}
+.link-learn::after{
+    content: '-->';
+    color: var(--color-accent);
+    margin-left: 5px;
+    transition: margin 0.15s;
+}
+
+.link-learn{
+    color: var(--color-accent);
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.link-learn:hover{
+    text-decoration: underline;
+}
+
+.link-learn:hover::after{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+@media screen and (min-width:1024px){
+    .link-learn{
+        font-size: 1.5rem;
     }
     
 }
