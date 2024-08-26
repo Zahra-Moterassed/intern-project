@@ -4,6 +4,7 @@
     --color-accent: rgb(105, 214, 105);
     --color-headings: #1b0760;
     --color-body: #918ca4;
+    --color-darker-body: #5a5377;
 }
 
 *,*::after,*::before{
@@ -386,6 +387,62 @@ a{
 .media__image{
     margin-top: 1rem;
 }
+
+/* quotes */
+.quote{
+    font-size: 3rem;
+    font-style: italic;
+    color: var(--color-darker-body);
+    line-height: 3.4rem;
+}
+
+.quote__text::before{
+    content: open-quote;
+}
+
+.quote__text::after{
+    content: close-quote;
+}
+
+.quote__image{
+    width: 20px;
+    height: 20px;
+}
+
+.quote__author{
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.quote__origin{
+    color: var(--color-headings);
+    opacity: 0.4;
+    font-size: 2rem;
+    font-style: normal;
+}
+
+.quote__line{
+    position: relative;
+    top:-7px;
+}
+
+@media screen and (min-width:1024px) {
+    .quote{
+        font-size: 2.2rem;
+    }
+    .quote__author{
+        font-size: 2.4rem;
+    }
+    .quote__origin{
+        font-size: 1.8rem;
+    }
+    
+}
+
+
+
 
 
 
