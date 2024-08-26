@@ -276,5 +276,27 @@ a{
     }
 }
 
+/* Cards */
+.card{
+    border-radius: 30px;
+    box-shadow: 0 0 20px 10px rgb(208, 227, 234);
+    width: 30%;
+    overflow: hidden;
+}
+
+.card__header, .card__body{
+    padding: 2rem 3rem;
+}
+
+.card--primary .card__header{
+    color: #fff;
+    background: var(--color-primary);
+}
+
+.card--secondary .card__header{
+    color: #fff;
+    background: var(--color-secondary);
+}
+
 
 
