@@ -606,7 +606,69 @@ a{
     margin: 0 auto;
 }
 
+/* Navigation bar */
+.logo{
+    width: 60px;
+    height: 60px;
+}
 
+.nav{
+    background: #5a5377;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    align-items: center;
+}
 
+.nav__list{
+    width: 100%;
+    margin: 0;
+}
 
+.nav__item{
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid #1b0760;
+}
+
+.nav__item > a{
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.nav__item > a:hover{
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav.collapsible--expanded .nav__toggler{
+    opacity: 0.4;
+    box-shadow: 0 0 0 4px #bfbaba;
+    border-radius: 10px;
+}
+
+.nav__toggler{
+    border: 2px solid #000;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+}
+
+@media screen and (min-width:768px) {
+    .nav__toggler{
+        display: none;
+    }
+    .nav__list{
+        width: auto;
+        display: flex;
+        font-size: 1.6rem;
+        /* bara inke ro hidden nabashe list item ha */
+        opacity: 1;
+        max-height: 100%;
+    }
+    .nav__item{
+        border: 0;
+    }
+    
+}
 
