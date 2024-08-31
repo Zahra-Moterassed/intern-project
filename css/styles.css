@@ -79,10 +79,6 @@ a{
     font-weight: bold;
 }
 
-.link-learn:hover{
-    /*text-decoration: underline;*/
-}
-
 .link-learn:hover::after{
     margin-left: 10px;
     text-decoration: none;
