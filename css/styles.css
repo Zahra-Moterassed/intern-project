@@ -80,7 +80,7 @@ a{
 }
 
 .link-learn:hover{
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 .link-learn:hover::after{
@@ -774,7 +774,26 @@ a{
     margin: 0 auto;
 }
 
+/* features block */
+.feature__heading{
+    margin: 1rem 0;
+}
 
+.features .grid{
+    gap: 3rem 2rem;
+    margin: 10rem;
+}
+
+.feature__image{
+    width: 100%;
+}
+
+/* ??????*/
+@media screen and (min-width:768px) {
+    .features:nth-of-type(even) .feature__content{
+        order: 2;
+    }
+}
 
 
 
