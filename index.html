@@ -15,6 +15,383 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <header>
+      <nav class="nav collapsible">
+        <a href="/"><img class="logo" src="icons/logo.svg" alt="logo" /></a>
+        <svg class="icon icon--primary nav__toggler">
+          <use xlink:href="icons/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">item1</a></li>
+          <li class="nav__item"><a href="#">item2</a></li>
+          <li class="nav__item"><a href="#">item3</a></li>
+          <li class="nav__item"><a href="#">item4</a></li>
+        </ul>
+      </nav>
+      <script src="js/main.js"></script>
+    </header>
+    <div class="hero block block--dark block--skewed-left">
+      <div class="container grid grid--1x2">
+        <div class="hero__content block__header">
+          <h1 class="block__heading">Cloud Hosting For Pros</h1>
+          <p class="hero__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi,
+            aliquid! Veniam nihil quos officiis? Ducimus rem natus odit placeat
+            nostrum!
+          </p>
+          <a href="#" class="btn btn--secondary btn--streched">Get Strated</a>
+        </div>
+        <img class="hero__image" src="icons/bunny.jfif" alt="bunny" />
+      </div>
+    </div>
+    <section class="block container block-domain">
+      <header class="block__header">
+        <h2>Strating at 9$ per month</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ab
+          voluptas maxime doloremque odio sapiente.
+        </p>
+      </header>
+      <div class="input-group">
+        <input
+          type="text"
+          class="input"
+          placeholder="Enter domain name here..."
+        />
+
+        <button class="btn btn--accent">
+          <svg class="icon icon--primary">
+            <use xlink:href="icons/sprite.svg#search"></use>
+          </svg>
+          Search
+        </button>
+      </div>
+
+      <ul class="list block-domain__prices">
+        <li class="list__item">.net 9$</li>
+        <li class="list__item">
+          <span class="badge badge--primary">.com $5</span>
+        </li>
+        <li class="list__item">.sg 6$</li>
+        <li class="list__item">.ir 4$</li>
+        <li class="list__item">.ed 5$</li>
+        <li class="list__item">.space 6$</li>
+      </ul>
+    </section>
+    <section class="block container">
+      <header class="block__header">
+        <h2>some heading here</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+          laboriosam.
+        </p>
+      </header>
+      <article class="block features">
+        <div class="container grid grid--1x2 feature__content">
+          <div>
+            <span class="icon-container">
+              <svg class="icon icon--primary">
+                <use xlink:href="icons/sprite.svg#setting"></use>
+              </svg>
+            </span>
+            <h3 class="feature__heading">Super easy to use</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Eligendi, aliquid! Veniam nihil quos officiis? Ducimus rem natus
+              odit placeat nostrum!
+            </p>
+            <a href="#" class="link-learn">Learn more</a>
+          </div>
+          <img class="feature__image" src="icons/familyguy.png" alt="bunny" />
+        </div>
+      </article>
+      <article class="block features">
+        <div class="container grid grid--1x2 feature__content">
+          <div>
+            <span class="icon-container">
+              <svg class="icon icon--primary">
+                <use xlink:href="icons/sprite.svg#computer"></use>
+              </svg>
+            </span>
+            <h3 class="feature__heading">Best to compute</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Eligendi, aliquid! Veniam nihil quos officiis? Ducimus rem natus
+              odit placeat nostrum!
+            </p>
+            <a href="#" class="link-learn">Learn more</a>
+          </div>
+          <img class="feature__image" src="icons/familyguy.png" alt="bunny" />
+        </div>
+      </article>
+      <article class="block features">
+        <div class="container grid grid--1x2 feature__content">
+          <div>
+            <span class="icon-container">
+              <svg class="icon icon--primary">
+                <use xlink:href="icons/sprite.svg#search"></use>
+              </svg>
+            </span>
+            <h3 class="feature__heading">Search in no time</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Eligendi, aliquid! Veniam nihil quos officiis? Ducimus rem natus
+              odit placeat nostrum!
+            </p>
+            <a href="#" class="link-learn">Learn more</a>
+          </div>
+          <img class="feature__image" src="icons/familyguy.png" alt="bunny" />
+        </div>
+      </article>
+    </section>
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2>user friendly Control panel</h2>
+      </header>
+      <div class="container grid grid--1x2">
+        <img
+          class="block-showcase__image"
+          src="icons/The-Starry-Night.jpg"
+          alt="forest"
+        />
+        <ul class="list">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="icons/sprite.svg#setting"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">This is the title</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+                  odio officiis reprehenderit! Quisquam itaque ratione officia
+                  accusamus suscipit odio harum.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="icons/sprite.svg#setting"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">This is the title</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+                  odio officiis reprehenderit! Quisquam itaque ratione officia
+                  accusamus suscipit odio harum.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="icons/sprite.svg#setting"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">This is the title</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+                  odio officiis reprehenderit! Quisquam itaque ratione officia
+                  accusamus suscipit odio harum.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="block-plans container block">
+      <div class="grid grid--1x3">
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Entry</h3>
+              <span class="plan__price">14$</span>
+              <span class="plan__cycle">/monthly</span>
+              <span class="badge badge--secondary badge--small">10% OFF</span>
+              <span class="plan__description">Lorem ipsum dolor sit amet.</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Lorem ipsum dolor sit.</li>
+                <li class="list__item">Lorem, ipsum dolor.</li>
+                <li class="list__item">Lorem ipsum dolor sit.</li>
+              </ul>
+              <button type="button" class="btn btn--outline btn--block">
+                Buy Now!
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="plan plan--popular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Entry</h3>
+              <span class="plan__price">14$</span>
+              <span class="plan__cycle">/monthly</span>
+              <span class="badge badge--primary badge--small">10% OFF</span>
+              <span class="plan__description">Lorem ipsum dolor sit amet.</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Lorem ipsum dolor sit.</li>
+                <li class="list__item">Lorem, ipsum dolor.</li>
+                <li class="list__item">Lorem ipsum dolor sit.</li>
+              </ul>
+              <button type="button" class="btn btn--outline btn--block">
+                Buy Now!
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Entry</h3>
+              <span class="plan__price">14$</span>
+              <span class="plan__cycle">/monthly</span>
+              <span class="badge badge--secondary badge--small">10% OFF</span>
+              <span class="plan__description">Lorem ipsum dolor sit amet.</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Lorem ipsum dolor sit.</li>
+                <li class="list__item">Lorem, ipsum dolor.</li>
+                <li class="list__item">Lorem ipsum dolor sit.</li>
+              </ul>
+              <button type="button" class="btn btn--outline btn--block">
+                Buy Now!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <header class="block__header">
+        <h2>What our customers are saying</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, sunt.
+        </p>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img src="icons/familyguy.png" alt="ballon" />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--primary">
+                  <use xlink:href="icons/sprite.svg#black-tick"></use>
+                </svg>
+              </span>
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                debitis quas, modi culpa corrupti suscipit repellat quaerat
+                repudiandae magnam numquam.
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <img
+                      src="icons/horizontal-line.svg"
+                      class="quote__image quote__line"
+                      alt="horizontal-line"
+                    />
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">Jack Blues</h3>
+                    <p class="quote__origin">abc company</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <div class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__title footer__heading">Item 1</h2>
+            <span class="icon-container">
+              <img
+                class="icon collapsible__icon"
+                src="icons/chevron.svg"
+                alt="chevron"
+              />
+            </span>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li class="footer__item"><a href="#">this is item1</a></li>
+              <li class="footer__item"><a href="#">this is item2</a></li>
+              <li class="footer__item"><a href="#">this is item3</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__title footer__heading">Item 2</h2>
+            <span class="icon-container">
+              <img
+                class="icon collapsible__icon"
+                src="icons/chevron.svg"
+                alt="chevron"
+              />
+            </span>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li class="footer__item"><a href="#">this is item1</a></li>
+              <li class="footer__item"><a href="#">this is item2</a></li>
+              <li class="footer__item"><a href="#">this is item3</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__title footer__heading">Item 3</h2>
+            <span class="icon-container">
+              <img
+                class="icon collapsible__icon"
+                src="icons/chevron.svg"
+                alt="chevron"
+              />
+            </span>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li class="footer__item"><a href="#">this is item1</a></li>
+              <li class="footer__item"><a href="#">this is item2</a></li>
+              <li class="footer__item"><a href="#">this is item3</a></li>
+            </ul>
+          </div>
+        </div>
+        <section class="footer__brand">
+          <img
+            class="footer__logo icon-container"
+            src="icons/logo.svg"
+            alt="logo"
+          />
+          <p class="footer__copyright">&copy; copyright 2024 nazanin</p>
+        </section>
+      </div>
+    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>
